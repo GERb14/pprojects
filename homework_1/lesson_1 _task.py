@@ -1,11 +1,2 @@
-n = 5232
-
-count = 0
-
-while n > 2:
-    print(n)
-    n //= 10
-
-    count += 1
-
-print(count)
+for i in range(1,11,2):
+    print(i **2, end=" ")
