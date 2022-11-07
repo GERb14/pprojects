@@ -1,4 +1,4 @@
-var = int(input("Input value: "))
+var = int(input("Write number: "))
 
 for i in range(var):
     i *= i
