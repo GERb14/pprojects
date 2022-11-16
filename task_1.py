@@ -1,6 +1,0 @@
-N = input("How many pupils are: ")
-K = input("How many apples are: ")
-var1 = int(K) // int(N)
-var2 = int(K) % int(N)
-print("Every pupil get", var1, 'apples')
-print("Apples left:", var2)
