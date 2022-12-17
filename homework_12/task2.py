@@ -25,12 +25,8 @@ def decorator_func(func):
 @decorator_func
 def password_func():
     password = input("Type your password:")
-    if len(password) == 0 or password.count(' '):
-        return None
-    else:
-        return password
+    return None if len(password) == 0 or password.count(' ') else password
 
 
 if __name__ == "__main__":
     password_func()
-    
