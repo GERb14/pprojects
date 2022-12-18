@@ -6,4 +6,3 @@ while True:
     if len(txt) == 0:
         break
 fid.close()
-
