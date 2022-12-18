@@ -10,3 +10,4 @@ def longest_words(file):
 
 if __name__ == '__main__':
     longest_words('article.txt')
+
